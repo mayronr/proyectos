@@ -1,0 +1,99 @@
+.navbar .navbar-brand img {
+  width: 40px;
+}
+
+.navbar{
+  opacity: 0.8;
+}
+
+.text-platzi {
+  color: #97c93e !important;
+}
+
+.btn-platzi {
+  background-color: #97c93e !important;
+  color: white;
+}
+
+.btn-outline-platzi {
+  border: 2px solid #97c93e !important;
+  color: #97c93e;
+  background-color: transparent;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .carousel-inner img {
+  max-height: 70vh;
+}
+
+#carousel img {
+  filter: grayscale(70%);
+}
+
+#carousel .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#speakers .card .badges {
+  margin-bottom: 0.5em;
+}
+
+#place-time {
+  margin-top: 1em;
+  background-color: #343a40;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+/*Iconos de las redes sociales*/
+
+.container-redes{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-redes a{
+  margin-top: 4px;
+}
+
+.container-redes img{
+  width: 60px;
+  padding: 4px;
+  background: rgba(0,0,0,0.0);
+  cursor: pointer;
+  border-radius: 100%;
+  transition: all 300ms;
+}
+
+.container-redes a:hover img{
+  background: rgba(0,0,0,0.10);
+}
+
+#footer {
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a {
+  color: white;
+}
